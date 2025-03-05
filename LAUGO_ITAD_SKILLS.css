@@ -1,0 +1,104 @@
+body {
+    background-color: #247291;
+    font-family: Verdana, Cambria, Tahoma, sans-serif;
+    color: #f5f9ee;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid #f7da5b;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    text-indent: 50px;
+    line-height: 1.6;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+sup {
+    color: #f7da5b;
+    font-size: smaller;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    border: 2px solid white;
+}
+
+/* Navigation Links */
+.section-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.section-nav a {
+    color: #f7da5b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Go Top and Home Buttons */
+.nav-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f7da5b;
+    color: #222052;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #e6c94d;
+}
+
+.fa-home {
+    margin-right: 5px;
+}
